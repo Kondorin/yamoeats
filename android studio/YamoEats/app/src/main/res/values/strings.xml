@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">YamoEats</string>
+    <string-array name="pizzas">
+        <item>Selecciona...</item>
+        <item>Mexicana</item>
+        <item>Italiana</item>
+        <item>Hawaiana</item>
+        <item>Vegetariana</item>
+        <item>Carnes Frias</item>
+        <item>Clasica</item>
+    </string-array>
+</resources>

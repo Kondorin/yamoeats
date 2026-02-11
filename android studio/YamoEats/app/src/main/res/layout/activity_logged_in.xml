@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondoapp"
+    android:layout_height="match_parent"
+    tools:context=".LoggedIn">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bienvenidousuario"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="#83e970">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="VER PREPARACION DE PIZZAS: "/>
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:background="#83e970"
+                android:layout_gravity="center_horizontal"
+                android:hint="Ver preparacion de pizzas" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ESCOGE UNA PIZZA"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textColor="#7042ff"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20px"
+            >
+
+            <ImageView
+                android:layout_width="180px"
+                android:layout_height="180px"
+                android:layout_marginBottom="4px"
+                android:id="@+id/pizzamex"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="SABOR: "
+                    android:textStyle="bold"
+                    android:textSize="30px"
+                    android:textColor="@color/black"
+                    android:id="@+id/tvn1"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="INGREDIENTES: "
+                    android:textSize="30px"
+                    android:textColor="@color/black"
+                    android:id="@+id/tvi1"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="30px"
+                    android:text="PRECIO: "
+                    android:textColor="@color/black"
+                    android:id="@+id/tvp1"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20px">
+
+            <ImageView
+                android:layout_width="180px"
+                android:layout_height="180px"
+                android:layout_marginBottom="4px"
+                android:id="@+id/pizzaita"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="SABOR: "
+                    android:textSize="30px"
+                    android:textColor="@color/black"
+                    android:id="@+id/tvn2"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="INGREDIENTES: "
+                    android:textSize="30px"
+                    android:id="@+id/tvi2"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="30px"
+                    android:text="PRECIO: "
+                    android:id="@+id/tvp2"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20px">
+
+            <ImageView
+                android:layout_width="180px"
+                android:layout_height="180px"
+                android:layout_marginBottom="4px"
+                android:id="@+id/pizzahaw"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="SABOR: "
+                    android:textSize="30px"
+                    android:textColor="@color/black"
+                    android:id="@+id/tvn3"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="30px"
+                    android:textStyle="bold"
+                    android:id="@+id/tvi3"
+                    android:textColor="@color/black"
+                    android:text="INGREDIENTES: "
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="PRECIO: "
+                    android:textSize="30px"
+                    android:textColor="@color/black"
+                    android:id="@+id/tvp3"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20px">
+
+            <ImageView
+                android:layout_width="180px"
+                android:layout_height="180px"
+                android:layout_marginBottom="4px"
+                android:id="@+id/pizzaveg"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="SABOR: "
+                    android:textSize="30px"
+                    android:id="@+id/tvn4"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="INGREDIENTES: "
+                    android:textSize="30px"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/tvi4"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="30px"
+                    android:text="PRECIO: "
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/tvp4"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20px">
+            <ImageView
+                android:layout_width="180px"
+                android:layout_height="180px"
+                android:layout_marginBottom="4px"
+                android:id="@+id/pizzacaf"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="SABOR: "
+                    android:textSize="30px"
+                    android:id="@+id/tvn5"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="30px"
+                    android:text="INGREDIENTES: "
+                    android:id="@+id/tvi5"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="30px"
+                    android:text="PRECIO: "
+                    android:id="@+id/tvp5"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20px">
+
+            <ImageView
+                android:layout_width="180px"
+                android:layout_height="180px"
+                android:layout_marginBottom="4px"
+                android:id="@+id/pizzacla"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="SABOR: "
+                    android:textSize="30px"
+                    android:id="@+id/tvn6"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="30px"
+                    android:textColor="@color/black"
+                    android:text="INGREDIENTES: "
+                    android:id="@+id/tvi6"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="30px"
+                    android:text="PRECIO: "
+                    android:textColor="@color/black"
+                    android:id="@+id/tvp6"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar sesion"
+            android:background="#ff7756"
+            android:id="@+id/btnCerrarSesion"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/volverInformacion"
+                android:layout_gravity=""
+                android:text="Regresar a mis datos"
+                android:textColor="@color/black"
+                android:textSize="35px"
+                android:shadowColor="@color/black"
+                android:textStyle="bold"
+                android:background="#fcbaa7"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
