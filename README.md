@@ -9,3 +9,7 @@ Se pueden apreciar 4 directorios
 
 Video de la App funcionando:
 https://drive.google.com/file/d/16kDGD6hB3p7iAf35G-Xkd1VhG_lp3vBW/view?usp=drive_link
+
+<img width="717" height="1430" alt="image" src="https://github.com/user-attachments/assets/80ca5dca-846d-4298-a2cb-a97c818fb55d" />
+
+<img width="724" height="1433" alt="image" src="https://github.com/user-attachments/assets/ab9d1cd6-7919-41da-82ec-8da4c58f3a74" />
