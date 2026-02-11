@@ -6,3 +6,6 @@ Se pueden apreciar 4 directorios
 2. Carpeta con la APK
 3. Archivos PHP de los cuales la aplicación de Android obtendrá los datos de las pizzas y los pedidos en tiempo real. (Es necesario subir a un servidor y realizar la configuración y conexión correcta, para obtener los datos.
 4. El archivo Script para la base de datos del servidor.
+
+Video de la App funcionando:
+https://drive.google.com/file/d/16kDGD6hB3p7iAf35G-Xkd1VhG_lp3vBW/view?usp=drive_link
